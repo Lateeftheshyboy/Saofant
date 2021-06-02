@@ -1,0 +1,118 @@
+body{
+    font-family: 'nunito sans';
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0;
+    width: 100%;
+    height: 100px;
+}
+
+.saof{
+    width: 40%;
+    background-color: #bc220a;
+    color: #fff;
+    box-sizing: border-box;
+    padding: 5px 20px;
+    text-transform: uppercase;
+}
+
+.navbar{
+    width: 60%;
+    height: 100px;
+    box-sizing: border-box;
+    float: inline-end;
+    background-color: white;
+    margin: 0 20px;
+    /*padding: 0 40px;*/
+}
+
+.navbar a{
+    margin: 50px 20px;
+    text-decoration: none;
+    color: #bc220a;
+    text-align: right;
+}
+
+.first-div{
+    display:inline-flex;
+    /*width: 50%;*/
+    margin: 20px 20px;
+    /*text-align: left;*/
+}
+
+.sec-h{
+    float: left;
+    font-size: 4rem;
+    width: 35%;
+    padding: 100px 10px;
+}
+
+.archi{
+    float: right;
+    width: 65%;
+    height: 600px;
+}
+
+.sect{
+    display: inline-flex;
+    text-align: left;
+    padding: 5px 30px;
+    padding: 15px 10px;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.innov{
+    width: 80px;
+    height: 80px;
+    margin: auto 150px;
+}
+
+.timely{
+    width: 80px;
+    height: 80px;
+    margin: auto 150px;
+}
+
+.const{
+    width: 80px;
+    height: 80px;
+    margin: auto 150px;
+}
+.first-sec{
+    width: 30%;
+}
+
+.second-sec{
+    width: 30%;
+}
+
+.third-sec{
+    width: 30%;
+}
+
+.footer{
+    text-align: center;
+    padding: 40px 60px;
+}
+.footer a{
+    padding: 20px 40px;
+}
+
+.linkedin{
+    width: 30px;
+    height: 30px;
+}
+
+.twitter{
+    width: 30px;
+    height: 30px;
+}
+
+.whatsapp{
+    width: 30px;
+    height: 30px;
+}
