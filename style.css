@@ -1,17 +1,24 @@
 body{
     font-family: 'nunito sans';
+    padding-top: 0;
+    margin-top: 0;
+    background-color: white;
 }
 
 .header{
     display: flex;
     flex-direction: row;
     margin: 20px 0;
+    margin-left: 0;
     width: 100%;
     height: 100px;
+    position: sticky;
+    top: 3px;
 }
 
 .saof{
     width: 40%;
+    font-weight: bold;
     background-color: #bc220a;
     color: #fff;
     box-sizing: border-box;
@@ -19,21 +26,31 @@ body{
     text-transform: uppercase;
 }
 
+.saof:hover{
+    background-color: teal;
+}
+
 .navbar{
     width: 60%;
     height: 100px;
     box-sizing: border-box;
-    float: inline-end;
     background-color: white;
     margin: 0 20px;
-    /*padding: 0 40px;*/
+    padding: 40px 4px;
+    padding-left: 30px;
 }
 
 .navbar a{
     margin: 50px 20px;
+    padding: 50px 5px;
     text-decoration: none;
     color: #bc220a;
     text-align: right;
+}
+
+.navbar a:hover{
+    color: black;
+    background-color: goldenrod;
 }
 
 .first-div{
@@ -62,7 +79,6 @@ body{
     padding: 5px 30px;
     padding: 15px 10px;
     justify-content: space-between;
-    box-sizing: border-box;
 }
 
 .innov{
@@ -84,14 +100,28 @@ body{
 }
 .first-sec{
     width: 30%;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    border:solid 3px teal;
 }
 
 .second-sec{
     width: 30%;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    border:solid 3px teal;
 }
 
 .third-sec{
     width: 30%;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    border:solid 3px teal;
+}
+
+.contact-us{
+    text-align: center;
+    padding: 20px 30%; 
 }
 
 .footer{
@@ -116,3 +146,31 @@ body{
     width: 30px;
     height: 30px;
 }
+
+.btn {
+    background: #bc220a;
+    background-image: -webkit-linear-gradient(top, #bc220a, #bc220a);
+    background-image: -moz-linear-gradient(top, #bc220a, #bc220a);
+    background-image: -ms-linear-gradient(top, #bc220a, #bc220a);
+    background-image: -o-linear-gradient(top, #bc220a, #bc220a);
+    background-image: linear-gradient(to bottom, #bc220a, #bc220a);
+    -webkit-border-radius: 20;
+    -moz-border-radius: 20;
+    border-radius: 20px;
+    text-shadow: 1px 1px 3px #666666;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 17px;
+    padding: 7px 10px 7px 10px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #008080;
+    background-image: -webkit-linear-gradient(top, #008080, #008080);
+    background-image: -moz-linear-gradient(top, #008080, #008080);
+    background-image: -ms-linear-gradient(top, #008080, #008080);
+    background-image: -o-linear-gradient(top, #008080, #008080);
+    background-image: linear-gradient(to bottom, #008080, #008080);
+    text-decoration: none;
+  }
