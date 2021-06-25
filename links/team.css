@@ -1,13 +1,31 @@
+body{
+    font-family: 'Nunito Sans';
+}
+
 h2{
     font-family: 'Nunito Sans';
     text-align: center;
-    font-size: 4rem;
+    font-size: 2.5rem;
 }
 
 .ceo{
     font-family: 'Nunito Sans';
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.dadd{
+    height: 200px;
+    width: 200px;
+    border-radius: 180px;
 }
 
 .coo{
     font-family: 'Nunito Sans';
+}
+
+.team{
+    background: skyblue;
+    color: #bc220a;
 }
