@@ -86,19 +86,25 @@ body{
 .innov{
     width: 80px;
     height: 80px;
-    margin: auto 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .timely{
     width: 80px;
     height: 80px;
-    margin: auto 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .const{
     width: 80px;
     height: 80px;
-    margin: auto 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 .first-sec{
     width: 30%;
