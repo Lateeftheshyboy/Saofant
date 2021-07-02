@@ -79,9 +79,8 @@ body{
     width: 100%;
     display: inline-flex;
     text-align: left;
-    padding: 5px 30px;
-    padding: 15px 10px;
-    justify-content: space-between;
+    padding: 5px 5px;
+    justify-content: center;
 }
 
 .innov{
@@ -103,21 +102,21 @@ body{
 }
 .first-sec{
     width: 30%;
-    padding: 5px 10px;
+    padding: 5px 5px;
     box-sizing: border-box;
     border:solid 3px teal;
 }
 
 .second-sec{
     width: 30%;
-    padding: 5px 10px;
+    padding: 5px 5px;
     box-sizing: border-box;
     border:solid 3px teal;
 }
 
 .third-sec{
     width: 30%;
-    padding: 5px 10px;
+    padding: 5px 5px;
     box-sizing: border-box;
     border:solid 3px teal;
 }
